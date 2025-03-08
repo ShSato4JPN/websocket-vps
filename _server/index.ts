@@ -18,10 +18,10 @@ app.use(cors());
 app.use(express.json());
 
 io.on("connection", (socket) => {
-  console.log(`User connected: ${socket.id}`);
-
   socket.on("chat message", (msg) => {
-    io.emit("chat message", msg);
+    console.log(`Message from ${socket.id}: ${msg}`);
+
+    io.emit("chat message", "hello from server");
   });
 
   socket.on("disconnect", () => {
