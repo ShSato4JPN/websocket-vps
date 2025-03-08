@@ -1,0 +1,32 @@
+{
+  "name": "websocket-vps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "tsx ./index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShSato4JPN/websocket-vps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShSato4JPN/websocket-vps/issues"
+  },
+  "homepage": "https://github.com/ShSato4JPN/websocket-vps#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "biome": "^0.3.3",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "tsx": "^4.19.3"
+  }
+}
